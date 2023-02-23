@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#navMenu {
+  padding: 20px;
+  text-decoration: none;
+  color: silver;
+}
+
+#navMenu:hover {
+  color: yellow;
+  text-decoration: overline;
+}
+
+.footerContent {
+  display: flex;
+}
+
+.footer {
+  background-color: rgb(37, 37, 37);
+  color: #D3D3D3;
+
+}
+
+.icons {
+  display: flex;
+  margin-left: auto;
+}
+
+.icon {
+  padding: 10px;
+  border: 1px solid silver;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin: 10px;
+}
+
+.icon:hover {
+  color: yellow;
+  border: 1px solid yellow;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.foot {
+  text-align: center;
+}
+
+.bannerBox {
+  background-color: black;
+  opacity: 0.8;
+  margin-bottom: 400px;
+  margin-right: 600px;
+}
+
+
+.cardText1 {
+  color: yellow;
+}
+
+.cardText2 {
+  margin-bottom: 20px;
+  color: #D3D3D3;
+}
+
+.cardText3 {
+  color: #D3D3D3;
+
+}
+
+.cardImg {
+  height: 213px;
+  width: 213px;
+  text-align: center;
+  justify-content: center;
+}
+
+.cardIcon {
+  color: yellow;
+}
+
+.bgCard {
+  background-color: rgb(37, 37, 37);
+  color: #D3D3D3;
+  padding: 30px;
+}
+
+.bgpic {
+  width: 100%;
+  height: 400px;
+}
+
+.batn {
+  height: 3rem;
+  width: 7rem;
+  color: yellow;
+  background-color: rgb(37, 37, 37);
+  border: 2px solid yellow;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.batn:hover {
+  color: #D3D3D3;
+  border: 2px solid #D3D3D3;
+  background-color: rgb(37, 37, 37);
+}
+
+.fotpera:hover {
+  color: yellow;
+}
+
+.inp {
+  text-align: center;
+  display: block !important;
+}
+
+.inpText {
+  text-align: center;
+  background-color: rgb(37, 37, 37);
+  width: 60%;
+  margin: 30px;
+  font-size: 1.5rem;
+  border: 1px solid #D3D3D3;
+}
+
+.inpText:hover {
+  border: 2px solid yellow;
+}
+
+.aboutText {
+  text-align: center;
+}
+
+.aboutNo {
+  width: 100px;
+  height: 50px;
+  transform: skew(-20deg);
+  background-color: rgb(37, 37, 37);
+border: 2px solid yellow;
+  color: yellow;
+  font-size: 2rem;
+}
+.topIcon{
+  color: yellow;
+  font-size: 2rem;
+}
+.topIcon:hover{
+color: darkgray;
+}
+.homeAdmin{
+padding: 30px;
+margin-top: 50px;
+  box-shadow: -2px -2px 13px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -2px 13px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -2px 13px 0px rgba(0,0,0,0.75);
+}
+
+.homeInput{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  text-align: center;
+  }
